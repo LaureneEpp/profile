@@ -1,0 +1,115 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url("https://fonts.google.com/specimen/Poppins?query=popp&selection.family=Poppins:ital,wght@0,100;0,200;0,400;1,200&sidebar.open=true")
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+body{
+  font-family: 'Open sans', san sherif;
+  font-weight: 300;
+  color: black;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+h1{
+  font-family: 'Poppins';
+  font-weight: bolder;
+  color: #16697a;
+  line-height: 1;
+  font-size: 34px;
+}
+
+h2{
+  font-family: 'Raleway', monospace;
+  font-weight: bolder;
+  color: #db6400;
+  line-height: 1;
+  font-size: 18px;
+}
+
+a{
+  font-weight: bold;
+  color: #1f3c88 ;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ffa62b;
+}
+
+div{
+  background: white;
+  padding: 24px;
+  margin: 16px;
+}
+
+.container{
+  background-color: #d9e4dd;
+}
+
+.img-circle {
+  border-radius: 85px;
+  width: 170px;
+  height: 170px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border: 1px solid lightgrey;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 4px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.body{
+  font-family: 'Poppins', monospace;
+  font-weight: 100;
+  background-color: #d9e4dd;
+  font-size: small;
+}
+
+.btn-blue{
+  background-color: #1f3c88 ;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.btn-blue:hover{
+  background-color: #ffa62b ;
+  color: white;
+}
+
+.social-icon{
+  font-size: 32px;
+  color: rgba(220, 220, 220);
+  margin: 8px 24px;
+}
+
+.social-icon:hover{
+  color: #ffa62b ;
+}
