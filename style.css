@@ -1,45 +1,44 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 @import url("https://fonts.google.com/specimen/Poppins?query=popp&selection.family=Poppins:ital,wght@0,100;0,200;0,400;1,200&sidebar.open=true")
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
 
 body{
-  font-family: 'Open sans', san sherif;
-  font-weight: 300;
   color: black;
   font-size: 10px;
   line-height: 1.6;
+  background-color: #e8e8e8;
 }
 
 h1{
-  font-family: 'Poppins';
-  font-weight: bolder;
-  color: #16697a;
-  line-height: 1;
-  font-size: 34px;
+  font-family: 'Open sans', monospace;
+    color: #214252;
+    line-height: 1;
+    font-size: 35px;
 }
 
 h2{
-  font-family: 'Raleway', monospace;
-  font-weight: bolder;
-  color: #db6400;
+  font-family: 'Poppins', monospace;
+  font-weight: 500;
+  color: #af2d2d;
   line-height: 1;
-  font-size: 18px;
+  font-size: 24px;
+}
+
+p{
+  font-family: 'Poppins';
+  font-weight: 100;
+  font-size: small;
+  margin: 16px 0px 32px;
 }
 
 a{
   font-weight: bold;
-  color: #1f3c88 ;
+  color: #ce6262 ;
   text-decoration: none;
 }
 
 a:hover{
-  color: #ffa62b;
+  color: #f05454;
 }
 
 div{
@@ -49,7 +48,7 @@ div{
 }
 
 .container{
-  background-color: #d9e4dd;
+  background-color: #e8e8e8;
 }
 
 .img-circle {
@@ -68,11 +67,12 @@ div{
 .card-white {
   background: white;
   padding: 30px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 17px 35px rgba(0,0,0,0.1);
   border: 1px solid lightgrey;
   width: 500px;
   margin: 30px auto;
-  border-radius: 4px;
+  border-radius: 8px;
+}
 }
 
 .list-inline > li {
@@ -85,31 +85,31 @@ div{
   padding-left: 0px;
 }
 
-.body{
-  font-family: 'Poppins', monospace;
-  font-weight: 100;
-  background-color: #d9e4dd;
-  font-size: small;
-}
-
 .btn-blue{
-  background-color: #1f3c88 ;
+  background-color: #ce6262 ;
   color: white;
   padding: 8px 24px;
   border-radius: 8px;
 }
 
 .btn-blue:hover{
-  background-color: #ffa62b ;
+  background-color: #f05454 ;
   color: white;
 }
 
 .social-icon{
-  font-size: 32px;
+  font-size: 34px;
   color: rgba(220, 220, 220);
-  margin: 8px 24px;
+  margin: 20px 12px;
 }
 
 .social-icon:hover{
-  color: #ffa62b ;
+  color: #f05454 ;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
 }
