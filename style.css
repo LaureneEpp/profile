@@ -1,6 +1,5 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
-@import url("https://fonts.google.com/specimen/Poppins?query=popp&selection.family=Poppins:ital,wght@0,100;0,200;0,400;1,200&sidebar.open=true")
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Poppins:ital,wght@0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap');
 
 body{
   color: black;
